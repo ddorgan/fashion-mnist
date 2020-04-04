@@ -2,6 +2,8 @@ FROM tensorflow/tensorflow:latest-gpu-py3
 
 MAINTAINER han.xiao@zalando.de
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 WORKDIR /
 
 # Install necessary packages.
